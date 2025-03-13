@@ -9,6 +9,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link href="css/style.css" rel="stylesheet">
+	
+<!--SEO-->
+<meta name="Description" content="Página de contacto de Autentica donde se puede encontrar datos de ubicacion, telefonos y demas contacto de información.">
+<meta name="Keywords" content="contacto de autentica, contact us, contacto, autentica contacto, ubicacion de autentica, autentica tegucigalpa, autentica informacion">
     
 </head>
 
@@ -95,11 +99,29 @@
         </div>
     </section>
 	
-	<section class="section" id="hero-nosotros-cta">
+	<section class="section" id="form">
 		<div class="container">
-			<h1>UNETE A NUESTRA FAMILIA</h1>
-			<p>Forma parte de Autentica y disfruta de un nuevo mundo de la moda.</p>
-            <a href="index.html" class="btn btn-primary-cta">Ver más</a>
+			<h1><b>CONTACTANOS</b></h1>
+			<div class="row">
+				<form action="" method="post" name="form-contacto">
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 col-12 mt-3">
+							<input name="Nombre" type="text" class="form-control" placeholder="Nombre">
+						</div>
+						<div class="col-lg-6 col-sm-6 col-12 mt-3">
+							<input name="Correo Electronico" type="email" class="form-control" placeholder="Correo Electronico">
+						</div>
+							
+						<div class="mt-3">
+							<textarea name="mensaje" rows="10" class="form-control" placeholder="Ingrese su mensaje aquí..."></textarea>	
+						</div>
+						
+						<div class="mt-3">
+							<button type="submit" class="btn btn-primary-cta w-100">Enviar</button>
+						</div>
+					</div>
+				</form>
+			</div>
 		</div>
 	</section>
 	
@@ -132,11 +154,15 @@
         </div>
     </footer>
 	
+	
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-15V6KDM9NM"></script>
+	<script>
+  	  window.dataLayer = window.dataLayer || [];
+  	  function gtag(){dataLayer.push(arguments);}
+  	  gtag('js', new Date());
+
+  	  gtag('config', 'G-15V6KDM9NM');
+	</script>
+	
 </body>
-	
-	
-	
-	
-	
-	
 </html>

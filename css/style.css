@@ -381,3 +381,95 @@ header{
 	color: #D88C5B;
 }
 
+.imagencatalogo{
+	border-radius: 15px;
+	width: 300px;
+	height: 400px;
+}
+
+#hero-tops{
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+#hero-tops h4{
+	color: #D88C5B;
+	padding-top: 15px;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: left
+}
+
+#hero-tops h5{
+	padding-bottom: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+
+#hero-tops h3{
+	text-align: center;
+	font-size: 40px;
+}
+
+#hero-tops h6{
+	color: #D88C5B;
+	font-weight: 400;
+	text-align: left
+}
+
+#hero-tops2{
+    text-align: center;
+	padding-top: 80px;
+	padding-bottom: 50px;
+    background-color: #ffffff;
+}
+
+#hero-tops2 h4{
+	color: #D88C5B;
+	padding-top: 15px;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: left
+}
+
+#hero-tops2 h5{
+	padding-bottom: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+
+#hero-tops2 h3{
+	text-align: center;
+	font-size: 40px;
+}
+
+#hero-tops2 h6{
+	color: #D88C5B;
+	font-weight: 400;
+	text-align: left
+}
+
+#anuncio-tops{
+	background-image: url("../img/anuncio1.png");
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.30);
+	padding: 8% 0;
+}
+
+#anuncio-tops h4,
+#anuncio-tops h3{
+	color: #fff;
+	text-align: center;
+}
+
+#anuncio-tops h3{
+	font-size: 80px;
+}
+
+#anuncio-tops h4{
+	font-weight: 200;
+}
+
